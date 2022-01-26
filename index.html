@@ -5,16 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/styles.css">
-    <link rel="stylesheet" href="css/baguetteBox.min.css">​
+    <link rel="stylesheet" href="css/baguetteBox.min.css">
+    <input type="search" name="search" id="search" placeholder="Search">​
     <title>Interactive Photo Gallery</title>
 </head>
 <body>
     <div class="gallery">
-        <a href="img/photo/01.jpg" data-caption="Hay Bales">
-            <img src="img/01.jpg" alt="First image">
+        <a href="img/photos/01.jpg" data-caption="Hay Bales">
+            <img src="photos/thumbnails/01.jpg" alt="First image">
+        </a>
+        <a href="img/photos/02.jpg" data-caption="Lake">
+            <img src="photos/thumbnails/02.jpg" alt="Second image">
+        </a>
+        <a href="img/photos/03.jpg" data-caption="Pasture">
+            <img src="photos/thumbnails/03.jpg" alt="Third image">
+        </a>
+        <a href="img/photos/04.jpg" data-caption="Iceburg">
+            <img src="photos/thumbnails/04.jpg" alt="Fourth image">
+        </a>
+        <a href="img/photos/05.jpg" data-caption="Desert Rock Face">
+            <img src="photos/thumbnails/05.jpg" alt="Fifth image">
+        </a>
+        <a href="img/photos/06.jpg" data-caption="Garden">
+            <img src="photos/thumbnails/06.jpg" alt="Sixth image">
+        </a>
+        <a href="img/photos/07.jpg" data-caption="Valley">
+            <img src="photos/thumbnails/07.jpg" alt="Seventh image">
+        </a>
+        <a href="img/photos/08.jpg" data-caption="Sand dune">
+            <img src="photos/thumbnails/08.jpg" alt="Eighth image">
+        </a>
+        <a href="img/photos/09.jpg" data-caption="Forest road">
+            <img src="photos/thumbnails/09.jpg" alt="Ninth image">
+        </a>
+        <a href="img/photos/10.jpg" data-caption="Coastline">
+            <img src="photos/thumbnails/10.jpg" alt="Tenth image">
+        </a>
+        <a href="img/photos/11.jpg" data-caption="Mountain view">
+            <img src="photos/thumbnails/11.jpg" alt="Eleventh image">
+        </a>
+        <a href="img/photos/12.jpg" data-caption="Snowcap mountain range">
+            <img src="photos/thumbnails/12.jpg" alt="Twelth image">
         </a>
 
 </div>
-    <script src="js/baguetteBox.min.js"></script>​
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/searchFilter.js"></script>
+    <script>
+        window.addEventListener('load', function() {
+          baguetteBox.run('.gallery');
+        });
+        </script>​
 </body>
 </html>
