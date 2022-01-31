@@ -21,13 +21,7 @@ body {
     height: 100vh;
 }
 
-.grid img {
+.gallery img {
    width: 200px;
    height: 200px;
-}
-
-
-#lightbox {
-    position:fixed;
-    z-index: 1000%;
 }
