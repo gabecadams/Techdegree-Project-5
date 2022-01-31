@@ -17,7 +17,6 @@
  *  Add this into your app.js file:
  *   const search = new Filter('search', 'data-caption');
  */
-     
 
  const _0x5837 = ['none', 'data-caption', 'toLowerCase', 'keyup', 'keyEvent', 'getAttribute', 'display', 'searchEvent', 'querySelectorAll', 'links', 'style', 'querySelector', 'value', 'target', 'search'];
  (function(_0x6a942d, _0x583795) {
